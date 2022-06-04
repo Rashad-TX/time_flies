@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Time Tracker</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="time_tracker.html"><image src = "images/logo3.png"></image></a>
+        </div>
+      </nav>
+     <!--End Of Navbar-->
+
+      <!--Input-->
+      <section id="input-sec" class="input-sec">
+<div class = "container">
+    <div class ="row">
+        <div class ="col">
+        <div>
+              <label for = "category" class="cat-lbl">CHOOSE A CATEGORY:</label>
+            <select id = "category">
+            <option ></option>   
+            <option value = "hygiene">Hygiene</option>
+            <option value = "fitness">Fitness</option>
+            <option value = "food">Food</option>
+            <option value = "commute">Commute</option>
+            <option value = "work">Work</option>
+            <option value = "study">Study</option>
+            <option value = "entertainment">Entertainment</option>
+            <option value = "family">Family</option>
+            <option value = "sleep">Sleep</option>
+            <option value = "shopping">Shopping</option>
+            <option value = "meditation">Meditation</option>
+            <option value = "religion">Religion</option>
+            <option value = "friends">Friends</option>
+        </select>
+
+        <label for ="task" class="tsk-lbl">Name Your Task:</label>
+        <input id="task" class="task-name">
+        <button class="frm-sub-btn">SUBMIT </button>
+
+    </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+<script src = "js.js"></script>
+</body>
+</html>

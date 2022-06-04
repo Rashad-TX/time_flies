@@ -1,0 +1,40 @@
+.navbar{
+    background-color: yellow;
+}
+
+#input-sec{
+    background-color: black;
+}
+
+.cat-lbl{
+    color:white;
+    font-size: 2rem;
+}
+
+.tsk-lbl{
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+#category{
+    font-size: 1 rem;
+}
+
+option{
+    font-size: 2rem;
+}
+
+select{
+    width: 10rem;
+}
+
+.task-name{
+    width: 20rem;
+}
+
+.frm-sub-btn{
+    font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: yellow;
+}
