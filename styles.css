@@ -1,40 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar{
-    background-color: yellow;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.option-sec{
+    border: solid white 2rem;
+    background: orange;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-#input-sec{
-    background-color: black;
+.opt-btn{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 10px;
+    border: solid 5px gray;
+    margin: 2rem;
 }
 
-.cat-lbl{
-    color:white;
-    font-size: 2rem;
+.option{
+    width: 6rem;
+    cursor: pointer
 }
 
-.tsk-lbl{
+
+.option:hover{
+transform: scale(1.2);
+}
+
+
+.activity-hdr{
     color: white;
-    font-size: 2rem;
-    padding-left: 1rem;
+    font-size: 4rem;
 }
 
-#category{
-    font-size: 1 rem;
+.activity-container{
+    padding-bottom: 5rem;
 }
 
-option{
-    font-size: 2rem;
+.activity{
+    background: orange;
+    padding: 2rem;
+    margin: 2rem;
+    width:100%;
+    height: 100%;
+    color: white;
+    font-size: 3rem;
+    list-style-type: none ;
+    display: flex;
+    
 }
 
-select{
-    width: 10rem;
-}
 
-.task-name{
-    width: 20rem;
-}
-
-.frm-sub-btn{
-    font-size: 1.5rem;
-  border-radius: 10px;
-  background-color: yellow;
-}
