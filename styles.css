@@ -56,7 +56,23 @@ transform: scale(1.2);
     font-size: 3rem;
     list-style-type: none ;
     display: flex;
+    justify-content: space-evenly
     
+}
+
+.date-area{
+    display: flex;
+    justify-content: center;
+
+}
+
+.date-hdr{
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.fa-solid{
+    cursor: pointer;
 }
 
 
