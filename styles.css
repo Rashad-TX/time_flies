@@ -42,23 +42,26 @@ transform: scale(1.2);
     font-size: 4rem;
 }
 
-.activity-container{
-    padding-bottom: 5rem;
+.activity-cnt{
+    display:flex;
+    justify-content: center;
+ width: 100%;  
+
+    
 }
 
 .activity{
   background-color: lightgray;
   border: solid 2px orangered;
-    padding: 2rem;
-    margin: 2rem;
-    width:100%;
-    height: 100%;
-    color: orangered;
-    font-size: 3rem;
-    list-style-type: none ;
-    display: flex;
-    justify-content: space-evenly
-    
+  padding:2rem 10rem 2rem 10rem;
+  margin: 1rem;
+  color: orangered;
+  font-size: 3rem;
+  list-style-type: none ;
+  display: flex;
+ justify-content: space-between;
+  
+ 
 }
 
 .date-area{
@@ -92,8 +95,19 @@ transform: scale(1.2);
     color: red;
 }
 
+.fa-trash-can{
+    color: gray;
+}
+
 .logo{
     background-color: orangered;
     border-radius: 50%;
 }
+
+.act-p,.fa-play,.fa-circle-stop,.fa-trash-can,.elapsedTime-Text{
+padding-left:2rem;
+padding-right: 2rem;
+}
+
+
 

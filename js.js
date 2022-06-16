@@ -51,11 +51,17 @@ function addActivity(buttonValue){
     newStop.addEventListener("click", () =>clearInterval(activityInterval));
     newDiv.appendChild(newStop);
 
-    const newElapsedTime = document.createElement('p');
+       const newElapsedTime = document.createElement('p');
     newElapsedTime.classList.add("elapsedTime-Text");
     newElapsedTime.innerText = "00:00:00";
     newDiv.appendChild(newElapsedTime);
     mainDiv.appendChild(newDiv);
+
+    const newTrash = document.createElement('i');
+    newTrash.classList.add("fa-solid");
+    newTrash.classList.add("fa-trash-can");
+    newTrash.addEventListener("click", ()=> deleteDiv());
+    newDiv.appendChild(newTrash);
 
     let elapsedSeconds = 0;
     updateTimerValue()
@@ -71,7 +77,9 @@ function addActivity(buttonValue){
         newElapsedTime.innerText = `${hours}:${minutes}:${seconds}`
       }
 
-                 
+       function deleteDiv(){
+    newDiv.remove();
+       }          
 
 
     }
