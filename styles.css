@@ -5,15 +5,15 @@
 }
 
 .navbar{
-    background-color: orange;
+ background-color: lightgray;
     display: flex;
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 .option-sec{
-    border: solid white 2rem;
-    background: orange;
+    border: solid orangered 0.5rem;
+  background-color: lightgray;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -22,7 +22,7 @@
     width: 8rem;
     height: 8rem;
     border-radius: 10px;
-    border: solid 5px gray;
+    border: solid 5px orangered;
     margin: 2rem;
 }
 
@@ -47,12 +47,13 @@ transform: scale(1.2);
 }
 
 .activity{
-    background: orange;
+  background-color: lightgray;
+  border: solid 2px orangered;
     padding: 2rem;
     margin: 2rem;
     width:100%;
     height: 100%;
-    color: white;
+    color: orangered;
     font-size: 3rem;
     list-style-type: none ;
     display: flex;
@@ -63,11 +64,12 @@ transform: scale(1.2);
 .date-area{
     display: flex;
     justify-content: center;
+    background-color: lightgray;
 
 }
 
 .date-hdr{
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 0.5rem;
 }
 
@@ -75,4 +77,23 @@ transform: scale(1.2);
     cursor: pointer;
 }
 
+#myOptions{
+    font-size: 2rem;
+    width: 20px;
+}
+
+
+.fa-play{
+    color: green;
+
+}
+
+.fa-circle-stop{
+    color: red;
+}
+
+.logo{
+    background-color: orangered;
+    border-radius: 50%;
+}
 

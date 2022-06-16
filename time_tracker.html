@@ -11,64 +11,69 @@
 </head>
 <body>
     <!--Navbar-->
-    <header class="navbar">
-                 <a class="navbar-brand" href="time_tracker.html"><image src = "images/logo1.png" width = "250px"></image></a>
+    <header class="navbar" id="navbar">
+                 <a class="navbar-brand" href="time_tracker.html"><img src = "images/logo1.png" width = "250px" class="logo"></a>
     </header>
       
      <!--End Of Navbar-->
+
+      <!--Current Date-->
+     <section class="date-area">
+        <h1 class="date-hdr">CURRENT DATE: </h1>
+        <h2  class="date-hdr" id="insert-date"></h2>
+    </section> 
+     <!--End OfCurrent Date-->  
 
   <!--Start Of Option Buttons-->
 <section class="option-sec">
 <div class = "container">
     <div class = "row">
         <div class ="col col-md-2">
-<button class = "opt-btn" value="BATHROOM"><image src ="/images/bathroom.png" class="option"></image></button>
+<button class = "opt-btn" value="BATHROOM"><img src ="/images/bathroom.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="COMMUTE"><image src ="/images/commute.png" class="option"></image></button>
+    <button class = "opt-btn" value="COMMUTE"><img src ="/images/commute.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="WORK"><image src ="/images/desk.png" class="option"></image></button>
+    <button class = "opt-btn" value="WORK"><img src ="/images/desk.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="ENTERTAINMENT"><image src ="/images/ent.png" class="option"></image></button>
+    <button class = "opt-btn" value="ENT"><img src ="/images/ent.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="FAMILY"><image src ="/images/family.png" class="option"></image></button>
+    <button class = "opt-btn" value="FAMILY"><img src ="/images/family.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="FITNESS"><image src ="/images/gym.png" class="option"></image></button>
+    <button class = "opt-btn" value="FITNESS"><img src ="/images/gym.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="MEAL"><image src ="/images/meal.png" class="option"></image></button>
+    <button class = "opt-btn" value="MEAL"><img src ="/images/meal.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="MEDITATE"><image src ="/images/meditate.png" class="option"></image></button>
+    <button class = "opt-btn" value="MEDITATE"><img src ="/images/meditate.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="RELIGION"><image src ="/images/pray.png" class="option"></image></button>
+    <button class = "opt-btn" value="RELIGION"><img src ="/images/pray.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="SHOPPING"><image src ="/images/shopping.png" class="option"></image></button>
+    <button class = "opt-btn" value="SHOPPING"><img src ="/images/shopping.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="SLEEP"><image src ="/images/sleep.png" class="option"></image></button>
+    <button class = "opt-btn" value="SLEEP"><img src ="/images/sleep.png" class="option"></button>
 </div>
 <div class ="col col-md-2">
-    <button class = "opt-btn" value="STUDY"><image src ="/images/study.png" class="option"></image></button>
+    <button class = "opt-btn" value="STUDY"><img src ="/images/study.png" class="option"></button>
 </div>
         </div>
     </div>
 </section>
 <!--End Of Option Buttons-->
-<section class="date-area">
-    <h1 class="date-hdr">CURRENT DATE: </h1>
-    <h2  class="date-hdr" id="insert-date"></h2>
-</section>   
+
 
 <div class ="activity-container">
-    <ul id="activities" class="activity-list"></ul>
+    <div id="activities" class="activity-list"></div>
 </div>
+
 
 
 
