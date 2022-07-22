@@ -79,15 +79,17 @@ transform: scale(1.2);
 
 .fa-play{
     color: green;
-
+    padding-top: 0.6rem;
 }
 
 .fa-circle-stop{
     color: red;
+    padding-top: 0.6rem;
 }
 
 .fa-trash-can{
     color: gray;
+    padding-top: 0.6rem;
 }
 
 .logo{
