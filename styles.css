@@ -5,17 +5,17 @@
 }
 
 .navbar{
- background-color: lightgray;
+    background-color: black;
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 .option-sec{
-    border: solid orangered 0.5rem;
-  background-color: lightgray;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    border: solid orangered 0.3rem;
+    background-color: lightgray;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .opt-btn{
@@ -45,23 +45,19 @@ transform: scale(1.2);
 .activity-cnt{
     display:flex;
     justify-content: center;
- width: 100%;  
-
-    
+    width: 100%;  
 }
 
 .activity{
   background-color: lightgray;
   border: solid 2px orangered;
-  padding:2rem 10rem 2rem 10rem;
+  padding:2rem 2rem;
   margin: 1rem;
   color: orangered;
   font-size: 3rem;
   list-style-type: none ;
   display: flex;
  justify-content: space-between;
-  
- 
 }
 
 .date-area{
@@ -74,17 +70,12 @@ transform: scale(1.2);
 .date-hdr{
     font-size: 1rem;
     padding: 0.5rem;
+    color: black;
 }
 
 .fa-solid{
     cursor: pointer;
 }
-
-#myOptions{
-    font-size: 2rem;
-    width: 20px;
-}
-
 
 .fa-play{
     color: green;
@@ -102,6 +93,7 @@ transform: scale(1.2);
 .logo{
     background-color: orangered;
     border-radius: 50%;
+    width: 10rem;
 }
 
 .act-p,.fa-play,.fa-circle-stop,.fa-trash-can,.elapsedTime-Text{
@@ -110,4 +102,213 @@ padding-right: 2rem;
 }
 
 
+@media (max-width:1000px){
+      
+    .option{
+        width: 4rem;
+        cursor: pointer
+    }
+    .opt-btn{
+        width: 6rem;
+        height: 6rem;
+        margin: 0.5rem;
+    }
 
+    .activity{
+        padding:1rem 10rem; 
+        font-size: 1rem;
+    }
+
+    .act-p{
+        font-size:2rem;
+    }
+    .fa-play{
+    font-size: 2rem;
+    padding-top: 0.4rem;
+    }
+    .fa-circle-stop{
+    font-size: 2rem;
+    padding-top: 0.4rem;
+    }
+
+    .elapsedTime-Text{
+    font-size: 2rem;
+    }
+    .fa-trash-can{
+    font-size: 2rem;
+    padding-top: 0.4rem;
+    }
+
+    .act-p,.fa-play,.fa-circle-stop,.fa-trash-can,.elapsedTime-Text{
+    padding-left:0.5rem;
+    padding-right: 0.5rem;
+    }
+
+
+}
+
+@media (max-width:770px){
+    .logo{
+        width: 6rem;
+    }
+
+    .option-sec{
+        border: solid orangered 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+   
+    .option{
+        width: 4.5rem;
+        cursor: pointer
+    }
+    .opt-btn{
+        width: 6rem;
+        height: 6rem;
+        border: solid 5px orangered;
+        margin: 0.5rem;
+    }
+
+    .activity{
+        padding:0.2rem 6rem; 
+           }
+
+    .act-p{
+        font-size:1.5rem;
+    }
+    .fa-play{
+    font-size: 1.5rem;
+    padding-top: 0.4rem;
+    }
+    .fa-circle-stop{
+    font-size: 1.5rem;
+    padding-top: 0.4rem;
+    }
+
+    .elapsedTime-Text{
+    font-size: 1.5rem;
+    }
+    .fa-trash-can{
+    font-size: 1.5rem;
+    padding-top: 0.4rem;
+    }
+
+    .act-p,.fa-play,.fa-circle-stop,.fa-trash-can,.elapsedTime-Text{
+    padding-left:0.5rem;
+    padding-right: 0.5rem;
+    }
+
+    .option:hover{
+        transform: scale(1.0.2);
+        }
+}
+
+@media (max-width:500px){
+    .logo{
+        width: 6rem;
+    }
+
+    .option-sec{
+        border: solid orangered 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+   
+    .option{
+        width: 3rem;
+        cursor: pointer
+    }
+    .opt-btn{
+        width: 4rem;
+        height: 4rem;
+        border: solid 5px orangered;
+        margin: 0.5rem;
+    }
+
+    .activity{
+        padding:0.2rem 2rem; 
+        font-size: 1rem;
+    }
+
+    .act-p{
+        font-size:1.2rem;
+    }
+    .fa-play{
+    font-size: 1rem;
+    padding-top: 0.4rem;
+    }
+    .fa-circle-stop{
+    font-size: 1rem;
+    padding-top: 0.4rem;
+    }
+
+    .elapsedTime-Text{
+    font-size: 1.2rem;
+    }
+    .fa-trash-can{
+    font-size: 1rem;
+    padding-top: 0.4rem;
+    }
+
+    .act-p,.fa-play,.fa-circle-stop,.fa-trash-can,.elapsedTime-Text{
+    padding-left:0.5rem;
+    padding-right: 0.5rem;
+    }
+
+
+}
+
+@media (max-width:400px){
+    .logo{
+        width: 6rem;
+    }
+
+    .option-sec{
+        border: solid orangered 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+     }
+   
+    .option{
+        width: 2.5rem;
+        cursor: pointer
+    }
+    .opt-btn{
+        width: 3.5rem;
+        height: 3.5rem;
+        border: solid 5px orangered;
+      
+    }
+
+    .activity{
+        padding:0.2rem 0.2rem; 
+        font-size: 1rem;
+    }
+
+    .act-p{
+        font-size:1.2rem;
+    }
+    .fa-play{
+    font-size: 1rem;
+    padding-top: 0.4rem;
+    }
+    .fa-circle-stop{
+    font-size: 1rem;
+    padding-top: 0.4rem;
+    }
+
+    .elapsedTime-Text{
+    font-size: 1.2rem;
+    }
+    .fa-trash-can{
+    font-size: 1rem;
+    padding-top: 0.4rem;
+    }
+
+    .act-p,.fa-play,.fa-circle-stop,.fa-trash-can,.elapsedTime-Text{
+    padding-left:0.5rem;
+    padding-right: 0.5rem;
+    }
+
+
+}
